@@ -175,6 +175,11 @@
     "@vue/compiler-dom" "3.4.21"
     "@vue/shared" "3.4.21"
 
+"@vue/devtools-api@^6.5.1":
+  "integrity" "sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA=="
+  "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.1.tgz"
+  "version" "6.6.1"
+
 "@vue/reactivity@3.4.21":
   "integrity" "sha512-UhenImdc0L0/4ahGCyEzc/pZNwVgcglGy9HVzJ1Bq2Mm9qXOpP8RyNTjookw/gOCUlXSEtuZ2fUg5nrHcoqJcw=="
   "resolved" "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.4.21.tgz"
@@ -1217,7 +1222,14 @@
     "lodash" "^4.17.21"
     "semver" "^7.3.6"
 
-"vue@^3.0.0", "vue@^3.2.25", "vue@^3.3.0", "vue@2 || 3", "vue@3.4.21":
+"vue-router@^4.3.0":
+  "integrity" "sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ=="
+  "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "@vue/devtools-api" "^6.5.1"
+
+"vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.0", "vue@2 || 3", "vue@3.4.21":
   "integrity" "sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.4.21.tgz"
   "version" "3.4.21"
