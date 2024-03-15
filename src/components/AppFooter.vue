@@ -65,7 +65,7 @@
       icon: `mdi-reddit`,
       href: 'https://reddit.com/r/vuetifyjs',
     },
-  ]
+  ];
 </script>
 
 <style scoped lang="sass">
