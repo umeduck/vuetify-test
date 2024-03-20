@@ -1,18 +1,24 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import Login from './components/Login.vue';
+import Top from './components/Top.vue';
 
 // ルート定義
 const routes = [
   {
-    path: '/',
-    name: 'Top',
+    path: '/welcome',
+    name: 'Welcome',
     component: HelloWorld
   },
   {
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/',
+    name: 'Top',
+    component: Top
   }
 ];
 

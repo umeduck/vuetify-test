@@ -19,7 +19,7 @@
       <div class="py-4" />
 
       <v-row>
-        <v-col cols="12">
+        <v-col cols="12" xs="12">
           <v-card
             class="py-4"
             color="surface-variant"
