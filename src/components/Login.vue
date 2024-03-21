@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <v-card width="600px" class="mx-auto mt-15">
     <v-card-title>
       <h1 class="display-1">ログイン</h1>
@@ -29,6 +30,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import Header from './Header.vue';
 
 const showPassword = ref(false);
 const name = ref('');
